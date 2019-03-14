@@ -1,5 +1,5 @@
 ## retailer-discount
-This repo is based on node js based application to calculate a discount based on user criteria
+This repo is based on node js based application to calculate a discount based on some set of rules.
 
 ## About Structure
 * Main entry point is app.js, which has a small html form to perform the action.
@@ -20,9 +20,7 @@ npm install
 
 I have created some mock users in utils/mock-user.json file.
 
-Use below action to caluclate discount
-
-You can use below Username:
+Use below username to caluclate discount:
 * test
 * test1
 * test2
