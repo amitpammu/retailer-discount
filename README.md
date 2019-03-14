@@ -25,3 +25,29 @@ Use below username to caluclate discount:
 * test1
 * test2
 * test3
+
+# It has following definations
+```
+{
+    "test": {
+        "is_employee": false,
+        "is_affiliated": true,
+        "joining_year": 2009
+    },
+    "test1": {
+        "is_employee": true,
+        "is_affiliated": false,
+        "joining_year": 2003
+    },
+    "test2": {
+        "is_employee": false,
+        "is_affiliated": false,
+        "joining_year": 2012
+    },
+    "test3": {
+        "is_employee": true,
+        "is_affiliated": true,
+        "joining_year": 2014
+    }
+}
+```
