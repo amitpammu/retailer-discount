@@ -16,17 +16,20 @@ Use npm install to install the application dependencies
 npm install
 ```
 
-## How to RUN the application
+## How to RUN Test Cases
+I have used supertest and should lib to execute test cases.
+
+```bash
+npm test
+```
+
+# Sample User json data
 
 I have created some mock users in utils/mock-user.json file.
 
-Use below username to caluclate discount:
-* test
-* test1
-* test2
-* test3
+You can find the test cases file inside test/test.js
 
-# It has following definations
+Based on the conditions, We are calculating the final bill after all discount. 
 ```
 {
     "test": {
